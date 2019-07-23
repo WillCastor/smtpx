@@ -6,7 +6,7 @@ A simple smtp client to send email(support Chinese). Work well with qq, 163, mac
 
 ```go
 	/*
-	a demo to send mail
+	   a demo to send mail
 	*/
 	host := "smtp.exmail.qq.com" //  smtp server host
 	port := 465    // smtp server port
@@ -18,7 +18,7 @@ A simple smtp client to send email(support Chinese). Work well with qq, 163, mac
 
 	letterInstance := NewLetter()
 	letterInstance.AddReceivers(toEmail)
-	letterInstance.AddCarbonCopy("") // add cc address, if not have don't call it
+	letterInstance.AddCarbonCopy("") // add cc address
 	letterInstance.SetSubject("Test")
 	letterInstance.SetContent("This is a test mail！")
 
