@@ -1,9 +1,11 @@
 # smtpx
-a simple smtp golang client
+
+A simple smtp client to send email(support Chinese). Work well with qq, 163, mac mail app, google mail.
 
 ## example
 
 ```go
+
 	host := "smtp.exmail.qq.com" //  smtp server host
 	port := 465    // smtp server port
 	email := ""    // your email
