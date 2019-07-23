@@ -4,7 +4,7 @@ a simple smtp golang client
 ## example
 
 ```go
-  host := "smtp.exmail.qq.com" //  smtp server host
+	host := "smtp.exmail.qq.com" //  smtp server host
 	port := 465    // smtp server port
 	email := ""    // your email
 	password := "" // your password
